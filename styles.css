@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 300px;
+    height: 600px;
+    background-color: #333;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section {
+    /* Apply a border and padding for visual clarity */
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: black;
+}
+
+.scrollable-section {
+    /* Define the dimensions for the section */
+    width: 90%;
+    height: 300px;
+    /* Apply a border and padding for visual clarity */
+    border-radius: 20px;
+    margin-top: 5px;
+    padding: 5px;
+    background-color: black;
+    /* Enable scrolling for overflow content */
+    overflow-y: auto; /* Vertical scrollbar */
+}
+
+/* Style for the circular user icon */
+.user-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container for the user icon */
+.user-container {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    margin-bottom: 10px; /* Add some space between icon and text */
+}
+
+.user-icon img {
+    width: 100%; /* Ensure the image fills the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Container for the text */
+.text-container {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Or specific to your div elements */
+div {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 5px;
+    padding: 0;
+}
+
+/* Style for the text */
+.text {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}

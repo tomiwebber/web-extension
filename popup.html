@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extension Popup</title>
+    <script src="popup.js"></script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+<body>
+    <div style="background-color: black; width: 100%; padding: 0; border-radius: 0px;">
+        <div class="text-container">
+            <div class="text" style="padding: 5px">
+                <h3>PET User</h3>
+            </div>
+        </div>
+        <div class="user-container">
+            <div class="user-icon">
+                <img src="user_icon.png" alt="User Icon">
+            </div>
+        </div>
+    </div>
+    <div class="section" style="background-color: rgb(255, 255, 255); padding: 0; width: 60%">
+        <div class="text" style="color: red">
+            <h5>Overall Privacy Score</h5>
+            <h1 id="result"></h1>
+        </div>
+    </div>
+    <div class="scrollable-section" style="height: 100px">
+        <div class="text">
+            <h3>PRIVACY VIOLATIONS</h3>
+            <h4 id="privacy_violations"></h4>
+        </div>
+    </div>
+    <div class="scrollable-section" style="margin-bottom: 5px;">
+        <div class="text">
+            <h3>PRIVACY DEBREIF</h3>
+            <p id="privacy_summary"></p>
+        </div>
+    </div>
+
+</body>
+</html>

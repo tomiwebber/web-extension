@@ -1,0 +1,11 @@
+{
+    "name": "PET Extension",
+    "version": "1.0",
+    "description": "Privacy Web Extension",
+    "permissions": ["activeTab"],
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": "pet_logo.png"
+    },
+    "manifest_version": 2
+  }
